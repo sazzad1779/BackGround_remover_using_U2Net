@@ -25,6 +25,7 @@ pip  install -r requirements.txt
 python u2net.py -i samples
 ```
 ![no image found](https://media.istockphoto.com/id/1370772148/photo/track-and-mountains-in-valle-del-lago-somiedo-nature-park-asturias-spain.webp?b=1&s=170667a&w=0&k=20&c=tXaaqmiE3UWRo6uC_xMvSZvNdDlvQBgEXqTs6brfqMk=)
+<img src="[https://your-image-url.type](https://media.istockphoto.com/id/1370772148/photo/track-and-mountains-in-valle-del-lago-somiedo-nature-park-asturias-spain.webp?b=1&s=170667a&w=0&k=20&c=tXaaqmiE3UWRo6uC_xMvSZvNdDlvQBgEXqTs6brfqMk=)" width="100" height="100">
 ##### To save blackwhite musk output image
 ```python 
 python u2net.py -i samples -s save_path
