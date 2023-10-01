@@ -91,7 +91,6 @@ def recognize_from_video(interpreter, args):
             opencv_image = np.array(result)
             # Convert the NumPy array to an OpenCV image (BGR format)
             opencv_image = cv2.cvtColor(opencv_image, cv2.COLOR_RGB2BGR)
-            print("shape: ",opencv_image.shape)
             if args.show:
                 cv2.getWindowProperty("frame", cv2.WND_PROP_VISIBLE)
                 cv2.imshow("frame",opencv_image)
@@ -123,7 +122,7 @@ def recognize_from_image(interpreter, args):
         # Construct the full path of the input image
         image_path = os.path.join(args.input, image_name)
         # prepare input data
-        print("print(args.input): ", image_path)
+        print("Image path : ", image_path)
 
         # prepare input data
         input_data, h, w = load_image(
@@ -149,14 +148,6 @@ def recognize_from_image(interpreter, args):
 
         pred = process_result(real_tensor, [h, w])
         if args.savepath:
-            # # Check if the folder exists
-            # if not os.path.exists(args.savepath):
-            #     # If it doesn't exist, create it
-            #     os.mkdir(args.savepath)
-            #     print(f"Folder '{args.savepath}' created.")
-            # else:
-            #     print(f"Folder '{args.savepath}' already exists.")
-
             save_path =  os.path.join(args.savepath, f"res_{image_name}")
             cv2.imwrite(save_path, pred * 255)
 
@@ -170,7 +161,6 @@ def recognize_from_image(interpreter, args):
             img = Image.open(image_path)
             bg = Image.open(args.background_image)  # Create an RGB image
             bg = bg.resize((w, h))
-            # print(pred.size,img.size,bg.size)
             if pred.size == img.size and bg.size == img.size:
                 result = Image.composite(img, bg, pred)
                 if args.show:
