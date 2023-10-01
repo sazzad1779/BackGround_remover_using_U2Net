@@ -24,7 +24,7 @@ pip  install -r requirements.txt
 ```python 
 python u2net.py -i samples
 ```
-![no image found](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcolors.artyclick.com%2Fcolor-names-dictionary%2Fcolor-names%2Fblood-red-color&psig=AOvVaw3LkyH0HYJNKW0SG8j2-x_V&ust=1696231095698000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJj7ta-n1IEDFQAAAAAdAAAAABAJ)
+![no image found](https://media.istockphoto.com/id/1370772148/photo/track-and-mountains-in-valle-del-lago-somiedo-nature-park-asturias-spain.webp?b=1&s=170667a&w=0&k=20&c=tXaaqmiE3UWRo6uC_xMvSZvNdDlvQBgEXqTs6brfqMk=)
 ##### To save blackwhite musk output image
 ```python 
 python u2net.py -i samples -s save_path
