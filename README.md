@@ -24,7 +24,7 @@ pip  install -r requirements.txt
 ```python 
 python u2net.py -i samples
 ```
-<img src="https://media.istockphoto.com/id/1370772148/photo/track-and-mountains-in-valle-del-lago-somiedo-nature-park-asturias-spain.webp?b=1&s=170667a&w=0&k=20&c=tXaaqmiE3UWRo6uC_xMvSZvNdDlvQBgEXqTs6brfqMk=" width="100%" height="50%">
+<img src="https://media.istockphoto.com/id/1370772148/photo/track-and-mountains-in-valle-del-lago-somiedo-nature-park-asturias-spain.webp?b=1&s=170667a&w=0&k=20&c=tXaaqmiE3UWRo6uC_xMvSZvNdDlvQBgEXqTs6brfqMk=.type" width="100%" height="50%">
 
 
 
