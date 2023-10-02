@@ -24,10 +24,6 @@ pip  install -r requirements.txt
 ```python 
 python u2net.py -i samples
 ```
-<img src="https://media.istockphoto.com/id/1370772148/photo/track-and-mountains-in-valle-del-lago-somiedo-nature-park-asturias-spain.webp?b=1&s=170667a&w=0&k=20&c=tXaaqmiE3UWRo6uC_xMvSZvNdDlvQBgEXqTs6brfqMk=" width="100px" height="50px">
-
-
-
 
 ##### To save blackwhite musk output image
 ```python 
@@ -41,6 +37,10 @@ python u2net.py -i samples --show
 ```python 
 python u2net.py -i samples  -s save_path -c  --show
 ```
+# some result
+<img align="left" src="https://github.com/sazzad1779/Background_remover_using_u2net/blob/main/samples/input.png" width="45%" height="45%">
+<img align="right" src="https://github.com/sazzad1779/Background_remover_using_u2net/blob/main/results/res_input.png" width="45%" height="45%">
+
 
 
 
