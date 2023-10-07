@@ -38,6 +38,8 @@ python u2net.py -i samples --show
 python u2net.py -i samples  -s save_path -c  --show
 ```
 # some result
+
+<img align="right" src="https://github.com/sazzad1779/Background_remover_using_u2net_/blob/main/results/result_comp.jpg" width="100%" height="100%">
 <img align="left" src="https://github.com/sazzad1779/Background_remover_using_u2net/blob/main/samples/input.png" width="45%" height="45%">
 <img align="right" src="https://github.com/sazzad1779/Background_remover_using_u2net/blob/main/results/res_input.png" width="45%" height="45%">
 
