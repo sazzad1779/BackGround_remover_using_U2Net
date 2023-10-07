@@ -45,7 +45,24 @@ python u2net.py -i samples  -s save_path -c  --show
 
 # python u2net --help
 ```
--h, --help            show this help message and exit \n                                                             -m MODEL_PATH, --model_path MODEL_PATH                                                                                                        give the model path                                                                     -i INPUT, --input INPUT                                                                                                                       give the input image                                                                    -v VIDEO, --video VIDEO                                                                                                                       give the video path                                                                     -s SAVEPATH, --savepath SAVEPATH                                                                                                              path for the output (image / video).                                                    -b BACKGROUND_IMAGE, --background_image BACKGROUND_IMAGE                                                                                      path for background image                                                               -c, --composite       Composite input image and predicted alpha value                                               -w WIDTH, --width WIDTH                                                                                                                       The segmentation width and height for u2net. (default: 320)                             --rgb                 Use rgb color space (default: bgr)                                                           --height HEIGHT       The segmentation height and height for u2net. (default: 320)                                 --show                Show output image. 
+optional arguments:
+  -h, --help            show this help message and exit
+  -m MODEL_PATH, --model_path MODEL_PATH
+                        give the model path
+  -i INPUT, --input INPUT
+                        give the input image
+  -v VIDEO, --video VIDEO
+                        give the video path
+  -s SAVEPATH, --savepath SAVEPATH
+                        path for the output (image / video).
+  -b BACKGROUND_IMAGE, --background_image BACKGROUND_IMAGE
+                        path for background image
+  -c, --composite       Composite input image and predicted alpha value
+  -w WIDTH, --width WIDTH
+                        The segmentation width and height for u2net. (default: 320)
+  --rgb                 Use rgb color space (default: bgr)
+  --height HEIGHT       The segmentation height and height for u2net. (default: 320)
+  --show                Show output image. 
 ```
 
 
